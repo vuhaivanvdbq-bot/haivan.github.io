@@ -1,0 +1,200 @@
+DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>許玉麗的個人履歷</title>
+  <style>
+    body {
+      font-family: 'Noto Sans TC', sans-serif;
+      background: #f6f8fb;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .resume {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #fff;
+      padding: 20px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    header h1 {
+      font-size: 20px;
+      margin: 0;
+    }
+
+    header .buttons button {
+      background: #0078d7;
+      border: none;
+      color: white;
+      padding: 6px 14px;
+      border-radius: 6px;
+      margin-left: 8px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .top {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .left {
+      flex: 1 1 40%;
+      min-width: 250px;
+      padding: 10px;
+      border-right: 1px solid #f0f0f0;
+    }
+
+    .right {
+      flex: 1 1 60%;
+      padding: 10px 20px;
+    }
+
+    .avatar {
+      background: linear-gradient(135deg, #0078d7, #00a2ff);
+      width: 60px;
+      height: 60px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .skills span, .lang span, .interest span {
+      display: inline-block;
+      background: #e8f2ff;
+      color: #0078d7;
+      border-radius: 8px;
+      padding: 5px 10px;
+      margin: 4px;
+      font-size: 14px;
+    }
+
+    h3 {
+      color: #333;
+      margin-top: 20px;
+      border-left: 4px solid #0078d7;
+      padding-left: 8px;
+    }
+
+    section {
+      padding: 0 20px 20px 20px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin: 10px 0;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      background: #fafafa;
+      text-align: center;
+      font-size: 12px;
+      color: #777;
+      padding: 10px;
+      border-top: 1px solid #eee;
+    }
+  </style>
+</head>
+<body>
+  <div class="resume">
+    <header>
+      <h1>Resume20251016 · 許玉麗</h1>
+      <div class="buttons">
+        <button onclick="window.print()">列印 / 存為 PDF</button>
+      </div>
+    </header>
+
+    <div class="top">
+      <div class="left">
+        <div class="avatar">許</div>
+        <h2>玉麗</h2>
+        <p><strong>學號：</strong>114011118</p>
+        <p><strong>學校：</strong>亞洲大學 一年級</p>
+        <p><strong>Email：</strong>vuhaivanvdbq@gmail.com</p>
+        <p><strong>電話：</strong>0970-059-503</p>
+        <p><strong>地點：</strong>台中市，台灣</p>
+      </div>
+
+      <div class="right">
+        <h3>技能</h3>
+        <div class="skills">
+          <span>基礎文書處理</span>
+          <span>HTML / CSS / JavaScript（基礎）</span>
+          <span>西點 / 基礎烹飪</span>
+          <span>團隊合作</span>
+        </div>
+
+        <h3>語言</h3>
+        <div class="lang">
+          <span>越南語（母語）</span>
+          <span>中文（基礎）</span>
+        </div>
+
+        <h3>興趣</h3>
+        <div class="interest">
+          <span>看書</span>
+          <span>了解東方文化</span>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <h3>個人簡介</h3>
+      <p>
+        我是亞洲大學一年級學生，熱愛研究與探索文化及古代文明。<br>
+        目前無正式工作經驗 — 有志於從古代資料與前人經驗中學習，不斷累積知識與經驗。
+      </p>
+
+      <!-- 🔽 ẢNH CỦA BẠN ĐẶT Ở ĐÂY -->
+      <img src="profile_photo.png" alt="個人照片">
+
+      <h3>學歷</h3>
+      <p>亞洲大學 — 在學中・一年級</p>
+
+      <h3>實作 / 專案</h3>
+      <ul>
+        <li>校園學習：積極尋找並參考學校內可用的研究資料。</li>
+      </ul>
+
+      <h3>工作經驗</h3>
+      <p>目前無正式工作經驗 — 持續學習與練習以累積實務能力。</p>
+
+      <h3>職涯目標</h3>
+      <p>
+        希望在未來的學習與探索中，不斷累積新的知識與技能，成為一位文化研究者。
+      </p>
+
+      <div style="margin-top:15px;">
+        <button onclick="window.print()" style="background:#0078d7;color:white;border:none;padding:8px 16px;border-radius:8px;cursor:pointer;">下載 HTML 檔</button>
+      </div>
+    </section>
+
+    <footer>
+      這是一份自動產生的個人履歷範本，可按「列印 / 存為 PDF」輸出正式檔案。
+    </footer>
+  </div>
+</body>
+</html>
